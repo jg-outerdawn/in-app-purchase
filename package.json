@@ -1,14 +1,14 @@
 {
- "name": "in-app-purchase",
- "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows",
- "version": "1.11.4",
+ "name": "in-app-purchase-od",
+ "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows. (fork)",
+ "version": "1.12.0",
  "author": {
   "name": "Nobuyori Takahashi",
   "email": "voltrue2@yahoo.com"
  },
  "repository": {
   "type": "git",
-  "url": "https://github.com/voltrue2/in-app-purchase.git"
+  "url": "https://github.com/jg-outerdawn/in-app-purchase.git"
  },
  "dependencies": {
   "jwt-simple": "^0.5.6",
@@ -17,13 +17,15 @@
   "xmldom": "0.1.19"
  },
  "devDependencies": {
-  "mocha": "5.2.0",
-  "eslint": "5.6.1"
+  "eslint": "5.6.1",
+  "mocha": "^5.2.0"
  },
  "scripts": {
   "test": "./precommit.sh"
  },
- "#engine": "node >= 0.10.20",
+ "engines": {
+  "node": "18"
+ },
  "contributors": [],
  "keywords": [
   "Apple",
