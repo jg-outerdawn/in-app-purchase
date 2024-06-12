@@ -388,7 +388,8 @@ describe('#### Google ####', function () {
                                 assert(data[i].purchaseDate);
                                 assert(data[i].quantity);
                             }
-                            exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                            // exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                            done();
                         });
                     });
                 });
@@ -438,7 +439,8 @@ describe('#### Google ####', function () {
                                 assert(data[i].purchaseDate);
                                 assert(data[i].quantity);
                             }
-                            exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                            // exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                            done();
                         });
                     });
                 });
@@ -487,7 +489,8 @@ describe('#### Google ####', function () {
                             assert(data[i].purchaseDate);
                             assert(data[i].quantity);
                         }
-                        exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                        // exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                        done();
                     });
                 });
             });
@@ -707,7 +710,8 @@ describe('#### Google ####', function () {
                             assert(data[i].purchaseDate);
                             assert(data[i].quantity);
                         }
-                        exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                        // exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                        done();
                     });
                 });
             });
@@ -753,7 +757,8 @@ describe('#### Google ####', function () {
                             assert(data[i].purchaseDate);
                             assert(data[i].quantity);
                         }
-                        exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                        // exec('unset GOOGLE_IAB_PUBLICKEY_SANDBOX', done);
+                        done();
                     });
                 });
             });
