@@ -1,14 +1,14 @@
 {
  "name": "in-app-purchase-od",
  "description": "In-App-Purchase validation and subscription management for iOS, Android, Amazon, and Windows. (fork)",
- "version": "1.12.2",
+ "version": "1.12.3",
  "author": {
   "name": "Nobuyori Takahashi",
   "email": "voltrue2@yahoo.com"
  },
  "repository": {
   "type": "git",
-  "url": "https://github.com/jg-outerdawn/in-app-purchase.git"
+  "url": "https://github.com/outerdawn-nz/in-app-purchase-od.git"
  },
  "dependencies": {
   "jwt-simple": "^0.5.6",
@@ -24,7 +24,7 @@
   "test": "./precommit.sh"
  },
  "engines": {
-  "node": "18"
+  "node": "22"
  },
  "contributors": [],
  "keywords": [
