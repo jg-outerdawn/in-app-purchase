@@ -24,7 +24,7 @@
   "test": "./precommit.sh"
  },
  "engines": {
-  "node": "22"
+  "node": ">=22"
  },
  "contributors": [],
  "keywords": [
